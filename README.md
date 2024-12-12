@@ -99,7 +99,7 @@ The Chess Move Tracking system extracts each frame from a video, identifies ches
 - **Insufficient Accuracy**: Initial models were not accurate enough.
 - **Model Comparisons**: YOLO significantly outperformed Fast-RCNN and DETR models, even after fine-tuning with RoboFlow and in-class datasets.
 - **Model Upgrades**: Upgrading from YOLOv8 to YOLOv11m significantly improved accuracy. Future work could explore larger and more advanced models.
-
+- **PGN Transformation**: The algorithm for converting FEN to PGN is not generalized for all cases.
 ---
 
 
